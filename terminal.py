@@ -7,7 +7,7 @@ guess.maxAttempts = 6
 guess.number = guess.getRand(guess.rangeStart, guess.rangeEnd)
 
 print("Hello! What is your name?")
-player = Player(raw_input())
+player = Player(input())
 
 print(
     "Well, "
@@ -21,7 +21,7 @@ print(
 
 while guess.taken < guess.maxAttempts:
     print("Take a guess.")
-    player.guess = int(raw_input())
+    player.guess = int(input())
     guess.setTaken()
     if guess.guessIsTooLow(player.guess):
         print("Your guess is too low.")
