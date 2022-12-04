@@ -55,7 +55,7 @@ Assuming you are on __Linux__ and already have __Python__ installed.
     python -m coverage report 
 
 
-## Procedure version
+## Procedural version
 
 For such a small problem, procedural programming would be enough.
 
