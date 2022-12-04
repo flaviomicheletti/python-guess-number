@@ -99,5 +99,5 @@ class GuessTest(unittest.TestCase):
         self.assertFalse(guess.guessIsOk(player.guess))
 
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+#     unittest.main()

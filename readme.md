@@ -42,17 +42,14 @@ Assuming you are on __Linux__ and already have __Python__ installed.
 
 ## Running the tests
 
-    // simple
-    python guess-number.py
-
-    // advanced (?)
     python -m unittest guess-number.py -v
 
 
 ## Running the coverage
 
     python -m coverage run -m unittest guess-number.py
-    python -m coverage report 
+    python -m coverage report
+    python -m coverage html
 
 
 ## Procedural version
