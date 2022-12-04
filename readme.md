@@ -42,14 +42,17 @@ Assuming you are on __Linux__ and already have __Python__ installed.
 
 ## Running the tests
 
-    python -m unittest guess-number.py -v
+    python -m unittest guess_test.py -v
 
 
 ## Running the coverage
 
-    python -m coverage run -m unittest guess-number.py
+    python -m coverage run -m unittest guess_test.py
     python -m coverage report
     python -m coverage html
+
+![image](https://user-images.githubusercontent.com/1257048/205499604-97610a79-1e4a-4475-8cf0-a6c25aea4a4c.png)
+
 
 
 ## Procedural version
@@ -58,4 +61,4 @@ For such a small problem, procedural programming would be enough.
 
 It's no wonder that OOP is said to introduce complexity.
 
-    python procedure-version.py
+    python procedure_version.py
