@@ -28,6 +28,9 @@ Playing...
     python3 -m venv venv
     . venv/bin/activate
 
+    // in the first time
+    pip install coverage
+
 In order to run coverage you will have to install it.
 
     pip install coverage
